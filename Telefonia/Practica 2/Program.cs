@@ -10,6 +10,7 @@ namespace Practica_2
     {
         static void Main(string[] args)
         {
+             Console.WriteLine("hola");
         }
     }
 }
