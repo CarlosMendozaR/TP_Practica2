@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Practica_2
 {
-    class plan500
+    class plan500:Planes_telefonicos
     {
+        #region Atributos
+        public string redesSociales;
+        public byte llamadasExtranjero;
+        #endregion
+
+
+
     }
 }
