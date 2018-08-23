@@ -14,17 +14,17 @@ namespace Practica_2
         #region Métodos
         public void Precio()
         {
-            Console.WriteLine("El precio del plan es de $"+costo);
+            Console.WriteLine("El precio del plan es de $"+this.costo);
         }
 
         public void Datos()
         {
-            Console.WriteLine("Este plan te ofrece {0} MB.", megas);
+            Console.WriteLine("Este plan te ofrece {0} MB.", this.megas);
         }
 
         public void Telefono()
         {
-            Console.WriteLine("Tienes {0} llamadas y {1} mensajes de texto para utilizar.", llamadas, mensajes);
+            Console.WriteLine("Tienes {0} llamadas y {1} mensajes de texto para utilizar.", this.llamadas, this.mensajes);
         }
         #endregion
 
