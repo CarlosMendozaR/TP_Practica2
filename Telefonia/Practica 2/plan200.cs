@@ -4,6 +4,13 @@ namespace Practica_2
 {
     class plan200:Planes_telefonicos
     {
+        #region Constructor
+        public plan200()
+        {
+            Extras1();
+        }
+        #endregion
+
         #region Atributos
         public string whatsapp="Tienes Whatsapp";
         public string facebook="Tienes Facebook";
@@ -12,6 +19,10 @@ namespace Practica_2
 
         public void Extras1()
         {
+            costo = 100;
+            megas = 1000;
+            llamadas = 50;
+            mensajes = 100;
             Console.WriteLine("\n*Con este plan:\n{0}\n{1}\n{2}",whatsapp,facebook,instagram);
         }
     }
