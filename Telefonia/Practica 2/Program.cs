@@ -9,7 +9,6 @@ namespace Practica_2
             Planes_telefonicos miPlan = new Planes_telefonicos();
             plan200 PLAN200 = new plan200();
             plan500 PLAN500 = new plan500();
-
             Console.WriteLine("Selecciona el plan que quieres consultar:\na.- PLAN 200\nb.- PLAN 500");
             string w = Console.ReadLine();
             if (w=="a")
