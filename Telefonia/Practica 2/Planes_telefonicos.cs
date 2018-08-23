@@ -14,6 +14,7 @@ namespace Practica_2
         #region Métodos
         public void Precio()
         {
+           
             Console.WriteLine("El precio del plan es de $"+costo);
         }
 
